@@ -31,7 +31,17 @@ body {
     letter-spacing: 0.03em;  
     color: var(--main-text-color);
   }
+  .hidden 
+  { 
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    margin: -1px; 
+    clip: rect(0, 0, 0, 0); 
+  }
+
   /* ------Link general------ */
+  
   .header-logo, .header-link, .header-contact, .footer-address-link, .footer-contact  
   {
     text-decoration: inherit;
@@ -61,7 +71,7 @@ body {
 }
 .link {
     text-decoration: none;}
-    
+
  .hidden {
     font-size: 0;
 }   
